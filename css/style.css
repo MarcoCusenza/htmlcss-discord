@@ -161,6 +161,38 @@ header nav a:hover{
 
 /* /Jumbotron */
 
+/* Sezione1 */
+
+#section1 .container{
+    margin-top: 100px;
+}
+
+section:nth-child(odd){
+    background-color: #f1f1f1ff;
+}
+
+section img{
+    margin-right: 130px;
+}
+
+section .text-container{
+    display: inline-block;
+    width: 28%;
+    margin-top: 30px;
+}
+
+section h2{
+    font-size: 45px;
+}
+
+section p{
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+/* /Sezione1 */
 
 
 /* --- /MAIN --- */
@@ -187,4 +219,6 @@ header nav a:hover{
     height: 70px;
     background-color: violet;
 }
+
+
 /* --- /DEBUG --- */

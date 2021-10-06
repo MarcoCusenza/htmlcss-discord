@@ -45,6 +45,14 @@
     padding: 14px 22px;
     margin: 0 15px;
 }
+
+svg{
+    display: block;
+}
+
+svg:nth-child(even){
+    transform: scaleY(-1);
+}
 /* --- /COMMONS --- */
 
 
@@ -161,14 +169,14 @@ header nav a:hover{
 
 /* /Jumbotron */
 
-/* Sezione1 */
+/* Sezioni */
 
 #sezione1 .container{
     margin-top: 100px;
 }
 
 section:nth-child(odd){
-    background-color: #f1f1f1ff;
+    background-color: #f3f4f5ff;
 }
 
 section img{
@@ -191,8 +199,7 @@ section p{
     line-height: 30px;
 }
 
-
-/* /Sezione1 */
+/* /Sezioni */
 
 
 /* --- /MAIN --- */

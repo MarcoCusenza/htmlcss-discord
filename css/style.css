@@ -31,6 +31,7 @@
 
 .btn{
     border-radius: 2em;
+    text-decoration: none;
 }
 
 .small{
@@ -59,18 +60,18 @@ svg:nth-of-type(odd){
 
 
 /* +++ HEADER +++ */
-header{
+.header-box{
     width: 100vw;
     height: 70px;
     line-height: 70px;
     font-weight: 600;
     background-color: #2a5ee7;
-}
-
-header{
     position: fixed;
     z-index: 1;
-    /* left: 15%; */
+}
+
+.header-space{
+    height: 70px;
 }
 
 #logo-container, #signin-container{
@@ -146,12 +147,7 @@ header nav a:hover{
 }
 
 #jumbo-content .btn-container{
-    text-align: center;
     margin-top: 40px;
-}
-
-#jumbo-content .btn-container a{
-    text-decoration: none;
 }
 
 .btn.white{
@@ -164,11 +160,20 @@ header nav a:hover{
     color: white;
 }
 
-#jumbo-content .btn-container i{
-    margin-right: 6px;
-    font-size: 15px;
+.btn.blue{
+    background-color: rgb(98, 120, 194);
+    color: white;
 }
 
+.btn-container i{
+    margin-right: 6px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.btn:hover{
+    color: grey;
+}
 /* /Jumbotron */
 
 /* Sezioni */
@@ -205,18 +210,33 @@ section p{
     position: relative;
 }
 
-#sezione4 .text-container{
-    width: 80%;
+#sezione4 .container>*{
     position: relative;
     left: 50%;
     transform: translate(-50%);
 }
 
+#sezione4 .text-container{
+    width: 80%;
+}
+
 #sezione4 img{
     width: 90%;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
+}
+
+#sezione4 h3{
+    width: 60%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.btn-container{
+    position: unset;
+}
+
+img.stars{
+    height: auto;
+    width: 200px;
 }
 
 /* /Sezioni */

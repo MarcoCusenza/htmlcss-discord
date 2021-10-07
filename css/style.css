@@ -245,7 +245,47 @@ img.stars{
 /* --- /MAIN --- */
 
 /* +++ FOOTER +++ */
+footer{
+    background-color: rgb(36, 36, 36);
+}
+
+footer .container{
+    width: 80%;
+    padding: 50px 0;
+}
+
+footer .box{
+    float: left;
+    margin: 0 40px;
+}
+
+.box.contatti{
+    width: 25%;
+}
+
+.box .title{
+    color: rgb(118, 118, 207);
+}
+
+.box.contatti .title{
+    font-size: 35px;
+}
+
+.box.prodotto, .box.compagnia, .box.risorse, .box.norme{
+    width: calc(100% / 4 - 25%);
+    margin: 0 100px;
+}
+
+.box ul{
+    color:white;
+    text-decoration: none;
+    list-style-type: none;
+}
+
 /* --- /FOOTER --- */
+
+
+
 
 /* +++ DEBUG +++ */
 .debug .container{

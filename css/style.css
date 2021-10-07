@@ -67,9 +67,10 @@ header{
     background-color: #2a5ee7;
 }
 
-header .container{
-    /* position: fixed;
-    left: 15%; */
+header{
+    position: fixed;
+    z-index: 1;
+    /* left: 15%; */
 }
 
 #logo-container, #signin-container{
@@ -180,8 +181,8 @@ section:nth-of-type(odd){
     background-color: #f3f4f5ff;
 }
 
-section img{
-    margin-right: 130px;
+section img, section .text-container{
+    margin: 0 30px;
 }
 
 section .text-container{
@@ -198,6 +199,24 @@ section p{
     margin-top: 30px;
     font-size: 20px;
     line-height: 30px;
+}
+
+#sezione4 .container{
+    position: relative;
+}
+
+#sezione4 .text-container{
+    width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#sezione4 img{
+    width: 90%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 /* /Sezioni */

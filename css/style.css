@@ -168,7 +168,6 @@ header nav a:hover{
 .btn-container i{
     margin-right: 6px;
     font-size: 15px;
-    text-align: center;
 }
 
 .btn:hover{
@@ -251,12 +250,13 @@ footer{
 
 footer .container{
     width: 80%;
-    padding: 50px 0;
+    padding: 100px 0;
 }
 
 footer .box{
     float: left;
     margin: 0 40px;
+    color:white;
 }
 
 .box.contatti{
@@ -265,10 +265,29 @@ footer .box{
 
 .box .title{
     color: rgb(118, 118, 207);
+    font-weight: 800;
 }
 
 .box.contatti .title{
     font-size: 35px;
+}
+
+.box.contatti .row{
+    width: 50%;
+    background-image: url(../img/ita.png);
+    background-position: left;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+
+.box.contatti span{
+    margin-left: 30px;
+}
+
+.box.contatti i{
+    font-size: 10px;
+    margin-left: 4px;
 }
 
 .box.prodotto, .box.compagnia, .box.risorse, .box.norme{
@@ -277,9 +296,11 @@ footer .box{
 }
 
 .box ul{
-    color:white;
     text-decoration: none;
     list-style-type: none;
+    line-height: 1.8;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 /* --- /FOOTER --- */
